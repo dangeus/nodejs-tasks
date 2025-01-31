@@ -1,6 +1,5 @@
-// Создайте анонимный модуль в данном файле, который принимает имя папки и возвращает true/false в зависимости
-// от того существует или нет указанная папка
-const checkExistence = require('./modules/existanceCheck')
+// Создайте анонимный модуль, который принимает имя файла и возращает 1/0 в зависимости от того существует или нет
+// указанный файл
+const checkExistance = require('./modules/checkExist')
 
-console.log(checkExistence('test'))
-console.log(checkExistence('testFile.txt'))
+console.log(checkExistance('index.js'))
