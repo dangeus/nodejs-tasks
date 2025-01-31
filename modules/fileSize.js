@@ -9,6 +9,6 @@ module.exports = function (fileName) {
 
         return stats.size
     } else {
-        console.log('Такого файла не существует')
+        return 0
     }
 }
